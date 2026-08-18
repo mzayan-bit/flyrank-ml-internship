@@ -14,8 +14,10 @@
 
 ## 1. Agent Goal & Problem Definition
 
-### 1.1 Objective & Role
-The **Search Intelligence & Research Agent (SIRA)** is a personal developer agent designed to automate codebase auditing, technical documentation synthesis, and data pipeline verification for machine learning workflows. Rather than functioning as a passive chat assistant, SIRA acts as an autonomous pair-programmer operating directly inside the workspace environment.
+### 1.1 Objective, Role & Target User
+- **Core Role & Focused Job**: The **Search Intelligence & Research Agent (SIRA)** is a personal developer agent designed to automate codebase auditing, technical documentation synthesis, and data pipeline verification for machine learning workflows. Rather than functioning as a passive chat assistant, SIRA acts as an autonomous pair-programmer operating directly inside the workspace environment.
+- **Primary User**: Machine Learning Intern / Developer building and auditing search intelligence pipelines.
+- **Usage Frequency**: Daily during active research and coding sessions (executing 5–15 automated inspection and verification tasks per day).
 
 ### 1.2 Problem Statement
 Modern machine learning and data engineering workflows require constant context-switching between notebook execution, file inspection, documentation writing, and error debugging. Static single prompts fail because they lack real-time feedback loops and tool access. SIRA eliminates this cognitive load by autonomously inspecting code state, running verification scripts, and enforcing project guardrails.
@@ -92,7 +94,7 @@ Every tool integrated into SIRA has a realistic access plan detailing its connec
 
 ---
 
-## 5. Safety Guardrails & Human-in-the-Loop
+## 5. Safety Guardrails & Risk Management
 
 To ensure safe operation without runaway execution, SIRA enforces five strict guardrails:
 
@@ -140,8 +142,8 @@ To ensure safe operation without runaway execution, SIRA enforces five strict gu
 
 ## 7. Implementation Roadmap & Self-Check
 
-- [x] Core agent role and problem definition established.
-- [x] Autonomous decision loop (Plan-Act-Observe-Evaluate) documented.
+- [x] Core agent role, focused job, primary user, and daily usage frequency documented.
+- [x] Autonomous decision loop (Plan-Act-Observe-Evaluate) detailed.
 - [x] Platform choice justified with 10-hour build feasibility and 3-way platform comparison.
 - [x] Access plan and tool matrix defined with permission scopes.
 - [x] Safety boundaries and human-in-the-loop guardrails enforced.
